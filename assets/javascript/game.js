@@ -40,6 +40,16 @@ $(document).ready(function () {
         return Math.floor(Math.random() * 120) + 19;
     }
 
+var yourScore = 0;
+var targetScore = 0;
+
+var winCount = 0;
+var lossCount =0;
+
+
+
+
+
 
 
 

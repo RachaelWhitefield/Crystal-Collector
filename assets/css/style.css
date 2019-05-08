@@ -18,6 +18,13 @@
 
 .container {
     text-align: center;
-
 }
 
+#pink {
+    height: 96px;
+    width: 120px;
+}
+
+.card, .card-header, .card-body {
+    text-align: center;
+}
