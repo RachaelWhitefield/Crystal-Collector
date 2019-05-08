@@ -43,7 +43,20 @@ $(document).ready(function () {
 
 
 
+// Global variables: wins, losses, target score, your score
 
+// var score = yourScore + crystalValue;
+
+//array of crystals to loop through, asign a value for each crystal
+
+//Random number Function
+
+    // assign a value for each crystal
+
+// click event function
+
+// Start/reset game
+    // clear variables
 
 
 
