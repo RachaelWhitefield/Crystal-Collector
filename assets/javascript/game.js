@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
 
     var blue = $("#blue");
@@ -10,7 +8,11 @@ $(document).ready(function () {
     
     var yellow = $("#yellow");
 
-    var wins = document.getElementById("wins");
+    var losses = 0;
+
+    var wins = 0; 
+
+    
     
     
     var blueNumber = random1Thru12();
@@ -21,11 +23,15 @@ $(document).ready(function () {
             console.log("Sorry, You Lose");
             resetGame();
             alert("Sorry, You Lose.");
+            losses++;
+            $("#losses").text(losses);
         }
         
         else if (currentScore === targetScore) {
             resetGame();
             alert("Yay! You Won!");
+            wins++;
+        $("#wins").text(wins);
         }
         console.log(blueNumber)
     })
@@ -38,11 +44,15 @@ $(document).ready(function () {
             console.log("Sorry, You Lose");
             resetGame();
             alert("Sorry, You Lose.");
+            losses++;
+        $("#losses").text(losses);
         }
         
         else if (currentScore === targetScore) {
             resetGame();
             alert("Yay! You Won!");
+            wins++;
+        $("#wins").text(wins);
         }
         console.log(greenNumber)
     })
@@ -55,11 +65,15 @@ $(document).ready(function () {
             console.log("Sorry, You Lose");
             resetGame();
             alert("Sorry, You Lose.");
+            losses++;
+        $("#losses").text(losses);
         }
         
         else if (currentScore === targetScore) {
             resetGame();
             alert("Yay! You Won!");
+            wins++;
+        $("#wins").text(wins);
         }
         console.log(pinkNumber);
     })
@@ -74,11 +88,17 @@ $(document).ready(function () {
             console.log("Sorry, You Lose");
             resetGame();
             alert("Sorry, You Lose.");
+            losses++;
+        $("#losses").text(losses);
+            
         }
         
         else if (currentScore === targetScore) {
+            $("#wins").text(wins);
             resetGame();
             alert("Yay! You Won!");
+            wins++;
+        $("#wins").text(wins);
         }
             console.log(yellowNumber);
     })
@@ -118,31 +138,7 @@ var resetGame = function() {
     blueNumber = getRandom(1, 12);
     $("#target-score").text(targetScore);
 
-    // crystal.blue.value = getRandom(1, 12);
-    // crystal.green.value = getRandom(1, 12);
-    // crystal.pink.value = getRandom(1, 12);
-    // crystal.yellow.value = getRandom(1, 12);
-
-    
 }
 
-
-
-
-
-// Global variables: wins, losses, target score, your score
-
-// var score = yourScore + crystalValue;
-
-//array of crystals to loop through, asign a value for each crystal
-
-//Random number Function
-
-    // assign a value for each crystal
-
-// click event function
-
-// Start/reset game
-    // clear variables
 
 })
