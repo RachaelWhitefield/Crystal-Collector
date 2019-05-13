@@ -1,15 +1,25 @@
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
 .panel-heading {
     text-align: center;
 }
 
 .jumbotron {
-    background-color: pink;
+    background-color: black;
+    margin-top: 20px;
+    
+
+      
 }
 
 
 .display-4 {
     text-align: center;
-    background-color: pink;
+    color: white;
+    background-color: black;
+   
 }
 
 .gemImage {
@@ -18,6 +28,7 @@
 
 .container {
     text-align: center;
+
 }
 
 #pink {
@@ -25,6 +36,12 @@
     width: 120px;
 }
 
-.card, .card-header, .card-body {
+.card {
     text-align: center;
+    
+}
+
+.card-header {
+    background-color: black;
+    color: white;
 }

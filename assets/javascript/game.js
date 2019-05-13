@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    alert("Hit play for some fabulous fun!");
 
     var blue = $("#blue");
 
