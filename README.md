@@ -8,7 +8,6 @@ Shine bright like a diamond and click the crystals to try and reach your target 
 * Use the gems to get your score to match the number randomly chosen by the computer.
 
 ##### Game Instructions:
-===
 1. The target Score is a randomly chosen number. 
 2. Each one of the gems is also assigned a randomly chosen number. 
 3. Click on the gems to add to your score to match the target Score.
@@ -16,7 +15,6 @@ Shine bright like a diamond and click the crystals to try and reach your target 
 5. You lose if your score is greater than the target score.
 
 ##### Tips:
-===
 * Write down the gem values to help you keep track. The values change each time the game resets. 
 
 
