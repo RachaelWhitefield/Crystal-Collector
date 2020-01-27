@@ -4,8 +4,8 @@ Shine bright like a diamond and click the crystals to try and reach your target 
 [Play The Game Here](https://rachaelwhitefield.github.io/Crystal-Collector/)
 
 ### Game Objective
-==================
-Use the gems to get your score to match the number randomly chosen by the computer.
+===
+* Use the gems to get your score to match the number randomly chosen by the computer.
 
 ##### Game Instructions:
 ===
@@ -17,7 +17,7 @@ Use the gems to get your score to match the number randomly chosen by the comput
 
 ##### Tips:
 ===
-Write down the gem values to help you keep track. The values change each time the game resets. 
+* Write down the gem values to help you keep track. The values change each time the game resets. 
 
 
 ### Tools/Languages Used:
